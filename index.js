@@ -18,7 +18,7 @@ app.get("/idade/:nome/:idade", (req, res)=>{
 
 
 app.get("/teste", (req, res)=>{
-    res.send("Olá Mundo, test")
+    res.send("Olá Mundo, teste")
 })
 
 app.listen(3011,  ()=>{
